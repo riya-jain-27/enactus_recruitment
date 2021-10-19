@@ -1,34 +1,42 @@
 .top-content{
     background-color: black;
-    height: 17vh;
+    height: 20vh;
     width: 100%;
 }
 
 .top-logo{
-    height: 17vh;
+    height: 20vh;
     display: block;
 }
 
 .poly1{
-	border-bottom: 120px solid #ffc107;
-    border-left: 200px solid transparent;
-	border-right: 0px solid transparent;
-	height: 2px;
-	width: 270px;
+    border-bottom: 144px solid #ffc107;
+    border-left: 180px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0px;
+    width: 270px;
     float: right;
     transform: scaleY(-1);
 }
 
 .poly2{
 	width: 0;
-	height: 17vh;
+	height: 20vh;
 	border-left: 175px solid transparent;
 	border-right: 120px solid transparent;
 	border-bottom: 75px solid rgb(150, 148, 148); 
     float: right;   
-    margin-right: -18%;
+    margin-right: -14%;
 }
 
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    width: 100%;
+    list-style: none;
+}
 
 .navbar{
     background-color: gray;
