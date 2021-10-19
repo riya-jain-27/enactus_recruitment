@@ -1,0 +1,144 @@
+.top-content{
+    background-color: black;
+    height: 17vh;
+    width: 100%;
+}
+
+.top-logo{
+    height: 17vh;
+    display: block;
+}
+
+.poly1{
+	border-bottom: 120px solid #ffc107;
+    border-left: 200px solid transparent;
+	border-right: 0px solid transparent;
+	height: 2px;
+	width: 270px;
+    float: right;
+    transform: scaleY(-1);
+}
+
+.poly2{
+	width: 0;
+	height: 17vh;
+	border-left: 175px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 75px solid rgb(150, 148, 148); 
+    float: right;   
+    margin-right: -18%;
+}
+
+
+.navbar{
+    background-color: gray;
+    position: relative;
+    width: 100%;
+}
+
+.nav-link{
+    color: white !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar-nav{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.location{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.loc{
+    height: 10vh;
+    float: left;
+}
+.content{
+    color: honeydew;
+    margin-left: 8vh;
+}
+
+.heading{
+    color: rgb(235, 192, 3);
+    text-align: center;
+}
+
+.text{
+    color: whitesmoke;
+    font-size: large;
+}
+
+.mid-text{
+    color: white;
+    font-size: 7vh;
+    text-align: center;
+}
+
+.spacing{
+    margin: 20px 0px;
+}
+
+.box{
+    background-color: #ffc107;
+    width: 100%;
+    height:fit-content;
+    border-radius: 50px;
+}
+
+.project1{
+    padding: 30px 40px;
+    padding-right: 15vh;
+    text-align: left;
+    float: right;
+}
+
+.project2{
+    padding: 30px 40px;
+    padding-left: 15vh;
+    text-align: right;
+    border-right: 5px solid black;
+}
+
+
+.footer{
+    background-color: black;
+    padding: 20px 50px;
+    width: 100%;
+}
+
+.logo{
+    height: 20vh;
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    color: honeydew;
+    text-decoration: none;
+}
+
+li{
+    padding: 10px;
+}
+
+.media{
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.links{
+    color: honeydew;
+}
+
+.symbol{
+    height: 5vh;
+    display: flex;
+    padding-right: 10px;
+}
